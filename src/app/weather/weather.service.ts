@@ -22,6 +22,5 @@ export class WeatherService {
     return
     this.httpClient.get<ICurrentWeatherData>(`${environment.baseUrl}api.openweathermap.org/data/2.5/weather?q=
     ${city},${country}&appid=${environment.appId}`)
-
   }
 }
