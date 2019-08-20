@@ -18,7 +18,7 @@ current: ICurrentWeather
 
 }
 
-  ngOnInit() {
-  }
+  ngOnInit(){}
+  
 
 }
